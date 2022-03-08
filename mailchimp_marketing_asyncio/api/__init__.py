@@ -1,0 +1,31 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from mailchimp_marketing_asyncio.api.account_export_api import AccountExportApi
+from mailchimp_marketing_asyncio.api.account_exports_api import AccountExportsApi
+from mailchimp_marketing_asyncio.api.activity_feed_api import ActivityFeedApi
+from mailchimp_marketing_asyncio.api.authorized_apps_api import AuthorizedAppsApi
+from mailchimp_marketing_asyncio.api.automations_api import AutomationsApi
+from mailchimp_marketing_asyncio.api.batch_webhooks_api import BatchWebhooksApi
+from mailchimp_marketing_asyncio.api.batches_api import BatchesApi
+from mailchimp_marketing_asyncio.api.campaign_folders_api import CampaignFoldersApi
+from mailchimp_marketing_asyncio.api.campaigns_api import CampaignsApi
+from mailchimp_marketing_asyncio.api.connected_sites_api import ConnectedSitesApi
+from mailchimp_marketing_asyncio.api.conversations_api import ConversationsApi
+from mailchimp_marketing_asyncio.api.customer_journeys_api import CustomerJourneysApi
+from mailchimp_marketing_asyncio.api.ecommerce_api import EcommerceApi
+from mailchimp_marketing_asyncio.api.facebook_ads_api import FacebookAdsApi
+from mailchimp_marketing_asyncio.api.file_manager_api import FileManagerApi
+from mailchimp_marketing_asyncio.api.landing_pages_api import LandingPagesApi
+from mailchimp_marketing_asyncio.api.lists_api import ListsApi
+from mailchimp_marketing_asyncio.api.ping_api import PingApi
+from mailchimp_marketing_asyncio.api.reporting_api import ReportingApi
+from mailchimp_marketing_asyncio.api.reports_api import ReportsApi
+from mailchimp_marketing_asyncio.api.root_api import RootApi
+from mailchimp_marketing_asyncio.api.search_campaigns_api import SearchCampaignsApi
+from mailchimp_marketing_asyncio.api.search_members_api import SearchMembersApi
+from mailchimp_marketing_asyncio.api.template_folders_api import TemplateFoldersApi
+from mailchimp_marketing_asyncio.api.templates_api import TemplatesApi
+from mailchimp_marketing_asyncio.api.verified_domains_api import VerifiedDomainsApi
