@@ -18,7 +18,7 @@ Python 2.7 and 3.4+
 If the python package is hosted on GitHub, you can install directly from GitHub
 
 ```sh
-pip install git+https://github.com/john/mailchimp-marketing-asyncio.git
+pip install git+https://github.com/john-parton/mailchimp-marketing-asyncio.git
 ```
 (you may need to run `pip` with root permission: `sudo pip install git+https://github.com/john/mailchimp-marketing-asyncio.git`)
 
